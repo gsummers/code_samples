@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Hot Chocolate test</title>
+   </head><body>
+      <script>
+      var y=1;
+      var x=1;
+
+      for (i=1;i <= 100;i++)
+      {
+         
+         if(y == 3 & x == 5)
+         {
+            document.write("Hot Chocolate<br />");
+            x=1;
+            y=1;
+
+         }
+         else if(y == 3)
+         {
+            document.write("Hot<br />");
+            y=1;
+            x++;
+         }
+         else if(x == 5)
+         {
+            document.write("Chocolate<br />");
+            x=1;
+            y++;
+         }
+         else
+         {
+            document.write(i + "<br />");
+            x++;
+            y++;
+         }
+         
+      }
+      </script>
+   </body></html>
